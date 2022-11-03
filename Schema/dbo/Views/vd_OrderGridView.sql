@@ -1,13 +1,14 @@
 ﻿
-CREATE view [dbo].[vd_OrderGridView]
+
+CREATE   view [dbo].[vd_OrderGridView]
 as
 select
 	O.OrderID,
 	O.CustomerID,
 	O.OrderDate,
 	O.ShipName,
-	S.ShipperID,
-	S.CompanyName as [Shipper],
+	S.ShipperID as [Shipper],
+	S.CompanyName as [ShipperName],
 	O.ShipRegion,
 	O.ShipCountry,
 	O.ShipCity,

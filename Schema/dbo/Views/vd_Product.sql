@@ -1,4 +1,5 @@
 ﻿
+
 CREATE view [dbo].[vd_Product] as
 select
 	P.ProductID,
@@ -9,11 +10,11 @@ select
 	P.UnitsOnOrder,
 	P.ReorderLevel,
 	P.Discontinued,
-	G.CategoryID,
+	G.CategoryID as [Category],
 	G.CategoryName,
 	G.[Description],
-	S.SupplierID,
-	S.CompanyName as [Supplier],
+	S.SupplierID as [Supplier],
+	S.CompanyName as [SupplierName],
 	S.ContactName,
 	S.ContactTitle
 from Products P

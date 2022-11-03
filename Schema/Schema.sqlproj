@@ -116,5 +116,9 @@
     <Build Include="dbo\Stored Procedures\xp_MemberRenewPassword.sql" />
     <Build Include="dbo\Stored Procedures\xp_MemberPasswordForget.sql" />
     <Build Include="dbo\Stored Procedures\xp_logout.sql" />
+    <Build Include="dbo\Stored Procedures\xp_ProductUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\xp_ProductDelete.sql" />
+    <Build Include="dbo\Stored Procedures\xp_OrderUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\xp_OrderDelete.sql" />
   </ItemGroup>
 </Project>
